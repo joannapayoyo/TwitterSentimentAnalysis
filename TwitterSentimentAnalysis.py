@@ -7,10 +7,10 @@ import tweepy
 from tweepy import OAuthHandler
 
 # Replace the API_KEY and API_SECRET with your application's key and secret.
-ckey="XjFwLTGuvCYX3PUoPHDoCMbT1"
-csecret="KeIa69uyKAAv6jeCLaT1lC19Y6Q7vI0upsIrVeAMwKZq4yHvmA"
-atoken="228985267-ZiPdBxOnpjMxgGaD1y2pnE1W05UzqjB4RTjD1GCI"
-asecret="WACvIuXKj3quOZf8bK3UjFjgrJzY4Q3lO6kyMhrMR3woQ"
+ckey=""
+csecret=""
+atoken=""
+asecret=""
 
 auth = OAuthHandler(ckey, csecret)
 auth.set_access_token(atoken, asecret)
